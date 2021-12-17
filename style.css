@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.name_heading{
+    color: rgb(238, 106, 128);
+    font-style: italic;
+}
+.company_heading{
+    color: rgb(238, 106, 128);
+    font-style: italic;
+}
+.Email_heading{
+    color: rgb(238, 106, 128);
+    font-style: italic;
+}
+.Phone_heading{
+    color: rgb(238, 106, 128);
+    font-style: italic;
+}
+.subject_heading{
+    color:rgb(238, 106, 128);
+    font-style:italic;
+}
+.question_heading{
+    color: rgb(238, 106, 128);
+    font-style: italic;
+}
+.submit_heading{
+    color: teal;
+    font-style: oblique;
+    font-size: larger;
+}
+.option_heading{
+    color: rgb(44, 90, 85);
+    font-style: inherit;
+    font-size: 1.3rem;
+}
+.Registration_heading{
+    color: lightseagreen;
+    font-style: italic;
+    font-size: 3rem;
+}
+.name_font{
+    margin-top: -3rem;
+    margin-left: 3ren;
+}
