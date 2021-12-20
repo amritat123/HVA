@@ -1,0 +1,73 @@
+*{
+   margin:0;
+   padding:0;
+   font-family: "poppins", sans-serif; 
+   box-sizing: border-box;
+   background-image:  
+
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.download-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.download_btn{
+    position: relative;
+    background:chocolate;
+    width: 260px;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 400;
+    text-decoration: none;
+    box-shadow: 5px;
+    border-radius: 5px;
+    padding: 18px 0;
+    color: rgb(19, 21, 24);
+    /* transition:background 0.3s ease; */
+
+
+}
+.download_btn:hover{
+    background:rgb(60, 160, 160);
+
+    
+}
+.download_btn i{
+    margin-left: 5px;
+
+}
+.pleaseWait-text{
+    font-size: 1.1rem;
+    font-weight: 600;
+
+}
+.manualDownload-text{
+    font-size: 16px;
+    font-weight: 600;
+
+}
+.manualDownload-link{
+    color: darkgoldenrod;
+    font-weight: 800;
+    text-decoration: none;
+    
+}
+.bi bi-arrow-bar-dow{
+    font-size: larger;
+}
+#download_icon{
+    font-size: 1.5rem;
+    color: black;
+    /* margin-top: 1.2rem; */
+   
+
+}
