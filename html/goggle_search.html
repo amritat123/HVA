@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style_of_google.css">
+
+</head>
+
+<body>
+    <section>
+        <header>
+            <ul>
+                <li> <a href="#">Gmail</a></li>
+                <li><a href="#">Image</a></li>
+                <li> <a href="#"><img src="bars.png"></a></li>
+            </ul>
+        </header>
+        <img src="google.jpg" class="google" height="229px">
+        <input type="text" name=" "class="query" value="javatpoint">
+
+        <img src="search.png" class="search">
+        <input type="text" placeholder="Search Google or type a URL">
+        <img src="voice.png" class="mic">
+        <img src="search.png" class="search">
+
+        <div class="Button">
+            <button class="searchbutton">Search Here</button>
+        </div>
+    </section>
+    <script>
+        let query=document.querySelector(".query");
+        let searchbutton=document.querySelector(".searchbutton");
+
+        searchbutton.onclick=function(){
+            let url='https://www.google.com/search?q='+query.value;
+            window.location.href=url;
+        }
+        
+    </script>
+</body>
+
+</html>
